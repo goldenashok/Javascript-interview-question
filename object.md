@@ -1,7 +1,7 @@
 1. way to create object
 
 2. ```Object.preventExtensions()``` vs ```Object.seal()``` vs ```Object.freeze()```
-    > Note: ```Use strict`` mode to throw an error when trying to modify an immutable object!
+    > Note: ```Use strict``` mode to throw an error when trying to modify an immutable object!
     - ```Object.preventExtensions()``` used to prevent additions of properties
     
             const person = {
