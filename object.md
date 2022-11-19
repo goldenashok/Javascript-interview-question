@@ -1,6 +1,7 @@
 1. ```Object.preventExtensions()``` vs ```Object.seal()``` vs ```Object.freeze()```
     - ```Object.preventExtensions()``` used to prevent additions of properties
     
+    
     ```sh
     const person = {
         name: "ashok"
