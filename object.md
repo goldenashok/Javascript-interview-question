@@ -1,8 +1,8 @@
 1. way to create object
     There are 2 way to create Object
     - ```new Object()```
-        let a = new Object();
-        a.name = 'ashok';
+            let a = new Object();
+            a.name = 'ashok';
         
 
 2. ```Object.preventExtensions()``` vs ```Object.seal()``` vs ```Object.freeze()```
