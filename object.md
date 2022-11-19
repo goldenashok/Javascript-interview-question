@@ -4,7 +4,6 @@
     > Note: ```Use strict`` mode to throw an error when trying to modify an immutable object!
     - ```Object.preventExtensions()``` used to prevent additions of properties
     
-    
             const person = {
                 name: "ashok"
             }
@@ -13,6 +12,7 @@
             console.log(person.age); // undefied
             
    - ```Object.seal()``` used to prevent addition and deletion of properties
+   
            ```sh
            const person = {
                 name: "ashok"
