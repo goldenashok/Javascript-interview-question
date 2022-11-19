@@ -1,11 +1,13 @@
 1. way to create object
     There are 2 way to create Object
     - ```new Object()```
+    
             ```sh
             let a = new Object();
             a.name = 'ashok';
             ```
     - ```{}```
+    
             ```sh
             let a = {};
             a.name = 'ashok'
