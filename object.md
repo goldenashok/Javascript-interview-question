@@ -13,7 +13,6 @@
             
    - ```Object.seal()``` used to prevent addition and deletion of properties
    
-           ```sh
            const person = {
                 name: "ashok"
             }
@@ -21,15 +20,15 @@
             pesion.age = 33;
             delete pesion.name;
             console.log(pesion.age, persion.name); // undefined, ashok
-           ```
+           
    - ```Object.freeze()``` used to prevent addiition, deletion and modifying the properties
-        ```sh
-        const person = {
-            name: "ashok"
-        }
-        Object.freeze(person);
-        person.age = 33;
-        person.name = "kumar";
-        delete persion.name;
-        console.log(person.age, peson.name); // undefied, ashok
-        ```
+        
+            const person = {
+                name: "ashok"
+            }
+            Object.freeze(person);
+            person.age = 33;
+            person.name = "kumar";
+            delete persion.name;
+            console.log(person.age, peson.name); // undefied, ashok
+
