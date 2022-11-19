@@ -2,16 +2,14 @@
     There are 2 way to create Object
     - ```new Object()```
     
-            ```sh
             let a = new Object();
             a.name = 'ashok';
-            ```
+            
     - ```{}```
     
-            ```sh
             let a = {};
             a.name = 'ashok'
-            ```
+           
 
 2. ```Object.preventExtensions()``` vs ```Object.seal()``` vs ```Object.freeze()```
     > Note: ```Use strict``` mode to throw an error when trying to modify an immutable object!
