@@ -13,7 +13,6 @@
             console.log(person.age); // undefied
             
    - ```Object.seal()``` used to prevent addition and deletion of properties
-   
            ```sh
            const person = {
                 name: "ashok"
