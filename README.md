@@ -1,5 +1,5 @@
 # Javascript-interview-question
 Javascript Interview question
 
-  - Object Interview Question [/object.md]
-  - [HeySushil - YouTube](https://youtube.com/heysushil)
+  - Object Interview Question (https://github.com/goldenashok/Javascript-interview-question/blob/main/object.md)
+
