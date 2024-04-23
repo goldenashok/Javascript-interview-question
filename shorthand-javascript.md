@@ -84,6 +84,7 @@
 		const answer = xy > 120 ? 'First yes' : xy < 60 ? : 'Second yes' : 'No';
  	```
  7. ```swap function```
+    
     	** Longhand **
     	```sh
            var a =1;
@@ -93,7 +94,9 @@
 	   b = temp;
 	   console.log(a,b); // 2,1
     	```
+    
     	** Shorthand **
+    
     	```sh
     	   var a = 1;
 	   var b = 2;
