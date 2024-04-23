@@ -281,3 +281,109 @@
 	const num1 = +"100"; // converted to int
 	const num2 = +"100.01"; // converted to flot
 	```
+20. ```Object Assing property```
+    ```sh
+    var firstname = { firstName: 'ashok' }
+	var lastname = { lastName: 'kumar' }
+	```
+	> merge them into one obect? we can write function that copy from one object to another object.
+	
+	#### shorthand
+		object.assign(firstname, lastname);
+	
+	#### Object destruction
+		let fullName = {...firstname, ...lastname}
+21. ```Bitwise indexOf shorthand```
+    >indexOf() function used to find the position of the item. it will return the position, if not find return the -1.
+
+	```sh
+	if(arr.indexOf(item) > -1) //confirm it's found
+	if(arr.indexOf(item) === -1 ) //confirm it's not found
+	```
+	#### shorthand
+		if(~arr.indexOf(item)) // confirm it's found
+		if(!~arr.indexOf(item)) // confirm it's not found
+		
+22. ```Remove duplicate value from Array```
+    ```sh
+    let uniques = [ ...new Set([1, 2, 3, 1, 1]) ]; // [1, 2, 3]
+    ```
+23. ```Simplify multiple if statement```
+    ```sh    
+    const grade = "b";
+	#### Simple Approch
+		if( grade === 'a' || grade === 'b') {
+			console.log('pass');
+		}
+	#Better Approch
+		if(['a','b'].includes(grade)) {
+			console.log('pass');
+	```
+24. ```Short-Circuit Evaluation shorthand```
+    ##### Longhand
+	```sh
+    if(variable !== null || variable !== undefined || variable !== ''){
+		let variable2 = variable;
+	}
+	```
+	#### shorthand
+	```sh
+	const variable = variable1 || 'new';
+	(OR)
+		let variable;
+		let variable2 = variable || 'new';
+		console.log(variable2);//"new"
+	(OR)
+		variable = "foo";
+		let variable2 = variable || "new";
+		console.log(variable2);// "foo"
+	```
+25. ```Object Array Notation```
+    #### Longhand
+	```sjh
+    let x = new Array();
+	x[0] = 'ashok';
+	x[1] = 'kumar';
+	```
+	#### Shorthand
+	```sh
+	let x = ['ashok', 'kumar'];
+    ```
+26. ```short function calling```
+    #### Longhand
+	```sh
+    function x() { console.log('x calling')};
+		function y() { console.log('Y calling')};
+		z = 3;
+		if(z === 3) {
+			x();
+		} else {
+			y();
+	}
+	```	
+	#### Shorthand
+	```sh
+	function x() { console.log('x calling')};
+	function y() { console.log('Y calling')};
+	var z = 3;
+	(z===3 ? x : y)();
+	```
+27. ```Assign value to multiple variable```
+    #### long hand
+	```sh
+    let a,b,c;
+	a=10;
+	b=11;
+	c=12;
+	```
+	#### short Hand
+	```sh
+	let [a,b,c]=[10,11,12];
+	```
+28. ```Remove elements from Array```
+    i. Array.pop() -> Remove elements from last
+		var countries = ['india','usa','uk','china'];
+		var removedItem = countries.pop();
+		console.log('Countries', countries); //['india','usa','uk']
+		console.log('Removed Item', removedItem);//['china']
+	ii. Array.shift() -> 
