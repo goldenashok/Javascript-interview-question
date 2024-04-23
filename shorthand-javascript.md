@@ -85,7 +85,7 @@
  	```
  7. ```swap function```
     
-    	** Longhand **
+    	// Longhand
     
     	```sh
            var a =1;
@@ -96,7 +96,7 @@
 	   console.log(a,b); // 2,1
     	```
     
-    	** Shorthand **
+    	// Shorthand
     
     	```sh
     	   var a = 1;
