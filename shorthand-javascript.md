@@ -381,6 +381,7 @@
 	let [a,b,c]=[10,11,12];
 	```
 28. ```Remove elements from Array```
+    
     i. Array.pop() -> Remove elements from last
 		var countries = ['india','usa','uk','china'];
 		var removedItem = countries.pop();
