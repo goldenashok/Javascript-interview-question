@@ -66,6 +66,7 @@
    
 6. ```Ternary Operator```
    #Longhand
+   	```sh
 		const xy = 120;
 		let answer;	
 		if(xy > 120) {
@@ -73,8 +74,29 @@
 		} else {
 			answer = 'else answer';
 		}
-	
-	#Shorthand	
+	```
+	#Shorthand
+	```sh
 		const answer = xy > 120 ? 'if answer' : 'else answer';
+ 	```
 	#Nested If
+	```sh
 		const answer = xy > 120 ? 'First yes' : xy < 60 ? : 'Second yes' : 'No';
+ 	```
+ 7. ```swap function```
+    	** Longhand **
+    	```sh
+           var a =1;
+	   var b =2;
+	   var temp = a;
+	   a = b;
+	   b = temp;
+	   console.log(a,b); // 2,1
+    	```
+    	** Shorthand **
+    	```sh
+    	   var a = 1;
+	   var b = 2;
+	   [b,a] = [a,b];
+	   console.log(a,b); // 2,1
+    	```
