@@ -86,6 +86,7 @@
  7. ```swap function```
     
     	** Longhand **
+    
     	```sh
            var a =1;
 	   var b =2;
