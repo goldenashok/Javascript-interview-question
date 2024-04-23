@@ -2,15 +2,14 @@
 > The below shorthand javascript code is used for javascript developer. i have written some shorthand code over the yeare. i hope it's help to code improvement
 
 1. ```Math.floor()```
-   
    // Longhand
-   
-   Math.floor(4.3) === 4 // true
-   
+  ```sh 
+    Math.floor(4.3) === 4 // true
+```
    //shorthand
-   
-   ~~4.9 === 4 // true
-
+   ```sh
+    ~~4.9 === 4 // true
+```
 2. ```Math.pow()```
    
    // Longhand
@@ -84,22 +83,19 @@
 		const answer = xy > 120 ? 'First yes' : xy < 60 ? : 'Second yes' : 'No';
  	```
  7. ```swap function```
-    
     	// Longhand
-    
 	```sh
-		   var a =1;
-		   var b =2;
-		   var temp = a;
-		   a = b;
-		   b = temp;
-		   console.log(a,b); // 2,1
+	   var a =1;
+	   var b =2;
+	   var temp = a;
+	   a = b;
+	   b = temp;
+	   console.log(a,b); // 2,1
 	```
-    	// Shorthand
-    
-    	```sh
-	    	   var a = 1;
-		   var b = 2;
-		   [b,a] = [a,b];
-		   console.log(a,b); // 2,1
-    	```
+    // Shorthand
+    ```sh
+        var a = 1;
+        var b = 2;
+        [b,a] = [a,b];
+        console.log(a,b); // 2,1
+    ```
