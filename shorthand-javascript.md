@@ -382,9 +382,9 @@
 	```
 28. ```Remove elements from Array```
     
-    i. Array.pop() -> Remove elements from last
+    	- Array.pop() -> Remove elements from last
 		var countries = ['india','usa','uk','china'];
 		var removedItem = countries.pop();
 		console.log('Countries', countries); //['india','usa','uk']
 		console.log('Removed Item', removedItem);//['china']
-	ii. Array.shift() -> 
+	- Array.shift() -> 
