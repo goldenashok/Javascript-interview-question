@@ -88,19 +88,19 @@
     	// Longhand
     
     	```sh
-           var a =1;
-	   var b =2;
-	   var temp = a;
-	   a = b;
-	   b = temp;
-	   console.log(a,b); // 2,1
+	           var a =1;
+		   var b =2;
+		   var temp = a;
+		   a = b;
+		   b = temp;
+		   console.log(a,b); // 2,1
     	```
     
     	// Shorthand
     
     	```sh
-    	   var a = 1;
-	   var b = 2;
-	   [b,a] = [a,b];
-	   console.log(a,b); // 2,1
+	    	   var a = 1;
+		   var b = 2;
+		   [b,a] = [a,b];
+		   console.log(a,b); // 2,1
     	```
