@@ -1,4 +1,6 @@
 ##shorthand Javascript
+> The below shorthand javascript code is used for javascript developer. i have written some shorthand code over the yeare. i hope it's help to code improvement
+
 1. ```Math.floor()```
    
    // Longhand
@@ -9,7 +11,7 @@
    
    ~~4.9 === 4 // true
 
-3. ```Math.pow()```
+2. ```Math.pow()```
    
    // Longhand
 
@@ -21,7 +23,7 @@
      2**3; //8
      2**2; //4
    
-5. ```Joining Array```
+3. ```Joining Array```
    
    // Longhand
    
@@ -35,7 +37,7 @@
      const num = [2, 4, 6, ...odd];
      console.log(nums); // [2, 4, 6, 1, 3, 5];
    
-7. ```Cloning Array```
+4. ```Cloning Array```
    
      // Longhand
    
@@ -46,16 +48,33 @@
      const arr = [1, 2, 3, 4];
      const arr2 = [...arr];
    
-9. ```Loop Array```
+5. ```Loop Array```
    
      // Longhand
+   
      const fruits = [ 'mango', 'peach', 'banana'];
+   
      for(let i = 0; i < fruits.length; i++);
 
      // Shorthand
+   
      for ( let fruit of fruits)
    
      // if you wanted to access index, do
+   
      for (let index in  fruits)
    
-10. 
+6. ```Ternary Operator```
+   #Longhand
+		const xy = 120;
+		let answer;	
+		if(xy > 120) {
+			answer = 'if answer';
+		} else {
+			answer = 'else answer';
+		}
+	
+	#Shorthand	
+		const answer = xy > 120 ? 'if answer' : 'else answer';
+	#Nested If
+		const answer = xy > 120 ? 'First yes' : xy < 60 ? : 'Second yes' : 'No';
