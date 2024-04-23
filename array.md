@@ -1,6 +1,7 @@
 ## Array Interview question
-1. Way to create Array
-    There are 2 way to create Array
+1. How to create Array
+
+   There are 2 way to create Array
     - ```new Array()```
 
         ```sh
