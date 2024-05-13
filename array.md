@@ -62,17 +62,17 @@
    ```
 4. Sort by Age Acenting Order
    ```
-   let passengerDetail = [
-  {name: 'Ajay', age: 40, sex: 'male'},
-  {name: 'Ashok', age: 35, sex: 'male'},
-  {name: 'Raja', age: 33, sex: 'male'},
-  {name: 'Raji', age: 28, sex: 'female'},
-  {name: 'Nithya', age: 32, sex: 'female'},
-  {name: 'Prasanth', age: 29, sex: 'male'}
-];
-```
-```
-let sortByAge = passengerDetail.sort((x, y) => {
-  return x.age - y.age;
-});
-```
+      let passengerDetail = [
+     {name: 'Ajay', age: 40, sex: 'male'},
+     {name: 'Ashok', age: 35, sex: 'male'},
+     {name: 'Raja', age: 33, sex: 'male'},
+     {name: 'Raji', age: 28, sex: 'female'},
+     {name: 'Nithya', age: 32, sex: 'female'},
+     {name: 'Prasanth', age: 29, sex: 'male'}
+   ];
+   ```
+   ```
+   let sortByAge = passengerDetail.sort((x, y) => {
+     return x.age - y.age;
+   });
+   ```
