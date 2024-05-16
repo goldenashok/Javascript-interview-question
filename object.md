@@ -20,7 +20,7 @@
             const person = {
                 name: "ashok"
             }
-            Object.preventEntensions(person);
+            Object.preventExtensions(person);
             person.age = 33;
             console.log(person.age); // undefied
             
